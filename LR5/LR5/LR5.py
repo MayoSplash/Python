@@ -6,7 +6,7 @@ A = []
 for i in range(a):
     A.append([])
     for j in range(a):
-        A[i].append(random.randint(0,9))
+        A[i].append(random.randint(-1,9))
 
 #Печатаем массив
 for i in A:
