@@ -17,6 +17,31 @@ class Address:
     def SetCountry(self, value):
         self.Country = value
 
+    def GetRegion(self):
+        return self.Region
+    def SetRegion(self, value):
+        self.Region = value
+
+    def GetSity(self):
+        return self.Sity
+    def SetSity(self, value):
+        self.Sity = value
+
+    def GetStreet(self):
+        return self.Street
+    def SetStreet(self, value):
+        self.Street = value
+
+    def GetBuild(self):
+        return self.Build
+    def SetBuild(self, value):
+        self.Build = value
+
+    def GetFlat(self):
+        return self.Flat
+    def SetFlat(self, value):
+        self.Flat = value
+
 print('Напишите страну, регион, город, улицу, дом и номер квартиры, разделяя параметры символом "."')
 B = input()
 B = B.split('.')

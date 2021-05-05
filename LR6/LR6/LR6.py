@@ -16,6 +16,31 @@ class Address:
     def SetCountry(self, value):
         self.Country = value
 
+    def GetRegion(self):
+        return self.Region
+    def SetRegion(self, value):
+        self.Region = value
+
+    def GetSity(self):
+        return self.Sity
+    def SetSity(self, value):
+        self.Sity = value
+
+    def GetStreet(self):
+        return self.Street
+    def SetStreet(self, value):
+        self.Street = value
+
+    def GetBuild(self):
+        return self.Build
+    def SetBuild(self, value):
+        self.Build = value
+
+    def GetFlat(self):
+        return self.Flat
+    def SetFlat(self, value):
+        self.Flat = value
+
 
 A = Address('Россия','Краснодарский край','Краснодар','Ямальская','5','64')
 print(A._Address__Flat)
